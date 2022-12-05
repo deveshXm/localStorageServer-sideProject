@@ -58,6 +58,7 @@ function App() {
   const onResetHandler = () => {
     setLogin(false);
     setRegister(false);
+    setAlert("")
   };
 
   if (login) {
